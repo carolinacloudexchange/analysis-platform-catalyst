@@ -7,7 +7,7 @@ This Source Code Form is “Incompatible With Secondary Licenses”, as defined 
 Software distributed under the License is distributed on an "AS IS" basis, WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License for the specific language governing rights and limitations under the License.
 
 # Analysis Platform Catalyst
-This is a collection of scripts that show how to use our algorithm for calculated Compute Work Units.
+This is a collection of scripts that show how to use our algorithm for Work Load Consumption (WLC).
 
 We currently have a sample for:
 * C++

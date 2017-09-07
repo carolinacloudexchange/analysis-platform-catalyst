@@ -54,14 +54,14 @@ func main() {
 
 
 /*
-Takes telemetry info and calculates an Compute Work Unit (CWU)
-cpu CPU MHz
-memory Memory average in megabytes
-gpu GPU MHz
-disk Disk I/O in Kilobytes
-network Network I/O in Kilobytes
-storage Storage average in gigabytes
-returns Calculated Work Unit
+	Takes telemetry info and calculates a Work Load Consumption (WLC)
+	cpu CPU MHz
+	memory Memory average in megabytes
+	gpu GPU MHz
+	disk Disk I/O in Kilobytes
+	network Network I/O in Kilobytes
+	storage Storage average in gigabytes
+	returns Calculated Work Unit
 */
 func calcWorkUnit(cpu float64, memory float64, gpu float64, disk float64, network float64, storage float64) float64 {
 	return (cpu / DIV_CPU) +

@@ -39,7 +39,7 @@ int main(int argc, char *argv[])
 }
 
 /*
-	Takes telemetry info and calculates an Compute Work Unit (CWU)
+	Takes telemetry info and calculates a Work Load Consumption (WLC)
 	cpu CPU MHz
 	memory Memory average in megabytes
 	gpu GPU MHz
