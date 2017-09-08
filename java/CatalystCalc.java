@@ -26,7 +26,7 @@ public class CatalystCalc
 	private static double DIV_STORAGE = 16.0;
 
 	/**
-	 * Takes telemetry info and calculates a Work Load Consumption (WLC)
+	 * Takes telemetry info and calculates a Workload Consumption Unit (WCU)
 	 * @param cpu CPU MHz
 	 * @param memory Memory average in megabytes
 	 * @param gpu GPU MHz
